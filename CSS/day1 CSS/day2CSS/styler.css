@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* By default in every page there is some margin and padding we can remove this by margin:0 padding:0 se wo hata sakte hai */
+}
+
+span{
+    background-color: aqua;
+}
+
+h1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    border: 10px solid orange;
+    /* dispaly inline */
+    /* display: inline-block;
+    height: 200px;
+    width:200px; */
+    /* Now h2 is behaving like inline element although it is a block level element this is beacuuse of display:inline-block */
+
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    padding: 15px;
+    border: 10px  solid orange;
+    box-sizing: content-box;
+}
+
+span{
+    background-color:darkgreen;
+}
+/* Agar muje koi block level element ko inline banana hai hame bas dispaly inline likhdena hai */
+/* Respectively Agar muje koi inline level element ko block banana hai hame bas dispaly block likhdena hai */
+/* Hybrid model
+ display:inline-block similiar to inline but setting height,width,margn and padding is allowed.Element can sit to next each other */

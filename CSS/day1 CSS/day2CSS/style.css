@@ -1,0 +1,28 @@
+h1{
+    background-color: orange;
+    height: 300px;
+    width: 200px;
+    /* border-width:10px;
+    border-style: solid;
+    border-color: black;   it can be written shortly  by using a single statement 
+    border: 10 px solid black*/  
+
+    border: 10px solid black;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+p{
+    background-color: aquamarine;
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 50px;
+    /* To make Circle */
+}

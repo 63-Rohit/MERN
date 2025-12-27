@@ -1,0 +1,9 @@
+.first{
+    text-align: center;
+    background-color: green;
+}
+
+#second{
+    text-align: end;
+    background-color: red;
+}

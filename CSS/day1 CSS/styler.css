@@ -1,0 +1,41 @@
+
+/* Select on the based of Tag Element Sector */
+h1{
+    background-color: forestgreen;
+    font-size: 8 0px;
+}
+
+ul{
+    background-color: aqua;
+}
+
+h2{
+    background-color:lightgreen;
+
+}
+
+
+/* Select on the based of ID */
+#rohit{
+    background-color: blueviolet;
+}
+
+#first{
+    background-color: crimson;
+}
+
+
+/* Select on the base of Class */
+
+.third{
+    background-color:red;
+}
+
+/* Group based selector */
+h1,h2{
+    background-color: aqua;
+}
+
+li{
+    font-size: 1em;
+}

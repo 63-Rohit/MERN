@@ -1,0 +1,47 @@
+<!-- Form in HTML -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form>
+        <label for="name">Name</label>
+
+    <!-- for ka use kab hota hai? -->
+        <input type="text" name="username" id="name">
+        <label>Father Name</label>
+        <input type="text" name="userFname">
+        <label">age</label>
+        <input type="number" name="userAge">
+        <label>Password</label>
+        <input type="password" user="Password">
+        <label for="male">Male</label>
+        <!-- for lagane s kya hoga ki -->
+        <input type="radio" name="gender" id="male" value="male">
+        <!-- value male use krna taji jake backend ko on na jaye agr value na use kre to on aajata hai -->
+        <!-- name="gender" use krne se sirf koi ek h select hoga -->
+          <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" >
+          <label for="Other">other</label>
+        <input type="radio" name="gender" id="other" value="other">
+
+
+        <label for="c++">C++</label>
+        <input type="checkbox" name="subject" id="c++" value="c++">
+
+        <label for="java">Java</label>
+        <input type="checkbox" name="subject" id="java" value="java">
+
+        <label for="python">Python</label>
+        <input type="checkbox" name="subject" id="python" value="python">
+
+        <label for="javaScript">JavaScript</label>
+        <input type="checkbox" name="subject" id="javaScript" value="javaScript">
+
+        <input type="Submit">
+    </form>
+ </body>
+ </html>

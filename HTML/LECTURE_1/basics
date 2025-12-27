@@ -1,0 +1,33 @@
+
+Ip Address is a dynamic address.ye change hota rehta hai.
+IP address hota hai hamara 32 bit ka mumber(IPV4)
+
+
+IPV6=>128 bit number
+
+Permannent address is a MAC address.
+MAC(Medium Access Control) physical address isko apse koi n chin skta hai.Jab b aap mobile laptop khridoge ye address uske sath permannently atatch hoke ata hai.jab b ham internet p koi request bjte hai to us request k andar ip address or us device ka mac address b jata hai.ex anjali chat example 
+ Sender IP address Sender MAC address Anjali Chat Receiver IP Receiver MAC Address.
+ Toh Sirf Ip address se hi mesaage  deliver ni hote Ip Address b chhaiye hota hai or uske sath hi MAC addresss b chhahiye hota hai.Kyuki bhut bar aese situation aygi  aap internet se chale gye apka ip address  dusre insaan ko milgya or aap ye n chhahte ki aapka data  wo kisi or k paas chala jaye.
+
+
+
+
+DNS(Domain Name System)=>DNS ka kaam kya hai jo apke domain name hai usko IP address mai covert karna.
+
+
+
+
+
+
+
+
+
+
+Port Number
+Mne koi data k liyye request mare lekin mre phone ko kaise pata chalega ki is data ko muje show kispe karana hai.Aesa to ni ho sakta ki insta wale data ko whatsaap m show kaaradu ya dusre tab m show kaardu.Jisne request mare hai usi type k anadar wo data store hona chhaiye.Isliye Jab b ap requsest maroge toh uske sath ek port number attach krdiya Jayga Jisse ye pata chl jayga 50132 is instagram wale tab k liye allocate hai.
+
+Port Number se hame pata chalega ki bhaiya is device k andar muje kis wale application maiis data ko show karna hai.
+
+
+Switch

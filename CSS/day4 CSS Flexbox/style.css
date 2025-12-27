@@ -1,0 +1,37 @@
+/* body{
+    background-color: black;
+} */
+
+.container{
+
+    background-color: aqua;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify content: main axis k around kam kerta hai or main axis decide kon karega aapka fllex direction */
+
+    /* align items works  around cross axis */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color: orange;
+}
+
+.second{
+    background-color: green;
+}
+
+.third{
+    background-color: red;
+}
+
+.fourth{
+    background-color: chartreuse;
+}
