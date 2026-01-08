@@ -59,7 +59,7 @@
 //     {
 //       const element=document.createElement(tag);
 //       element.textContent=children;
-//       element.className=attributes.className;  //we will use loop and iterate over it
+//       element.className=attributes.className;  //as this attributes is passed as  object so we will use loop and iterate over it
 //       for(const key in attributes){
 //              if(key==='style'){
 //                  Object.assign(element.style, attributes.style);
